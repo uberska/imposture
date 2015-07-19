@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993347281B5B26260081172B /* libopencv_core.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 993347261B5B25E70081172B /* libopencv_core.2.4.11.dylib */; };
+		9933472A1B5B26380081172B /* libopencv_highgui.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 993347291B5B26380081172B /* libopencv_highgui.2.4.11.dylib */; };
+		9933472C1B5B265E0081172B /* libopencv_video.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9933472B1B5B265E0081172B /* libopencv_video.2.4.11.dylib */; };
+		993347311B5B27120081172B /* Cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9933472F1B5B27120081172B /* Cam.cpp */; };
+		993347341B5B27ED0081172B /* ObjCam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 993347331B5B27ED0081172B /* ObjCam.mm */; };
 		99E473FC1B5B24DC009575C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E473FB1B5B24DC009575C6 /* AppDelegate.swift */; };
 		99E473FE1B5B24DC009575C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E473FD1B5B24DC009575C6 /* Images.xcassets */; };
 		99E474011B5B24DC009575C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99E473FF1B5B24DC009575C6 /* MainMenu.xib */; };
@@ -24,6 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		993347261B5B25E70081172B /* libopencv_core.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_core.2.4.11.dylib; sourceTree = "<group>"; };
+		993347291B5B26380081172B /* libopencv_highgui.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_highgui.2.4.11.dylib; sourceTree = "<group>"; };
+		9933472B1B5B265E0081172B /* libopencv_video.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_video.2.4.11.dylib; sourceTree = "<group>"; };
+		9933472E1B5B27120081172B /* imposture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imposture-Bridging-Header.h"; sourceTree = "<group>"; };
+		9933472F1B5B27120081172B /* Cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cam.cpp; sourceTree = "<group>"; };
+		993347301B5B27120081172B /* Cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cam.h; sourceTree = "<group>"; };
+		993347321B5B27ED0081172B /* ObjCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCam.h; sourceTree = "<group>"; };
+		993347331B5B27ED0081172B /* ObjCam.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCam.mm; sourceTree = "<group>"; };
 		99E473F61B5B24DC009575C6 /* imposture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imposture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E473FA1B5B24DC009575C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E473FB1B5B24DC009575C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +52,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9933472C1B5B265E0081172B /* libopencv_video.2.4.11.dylib in Frameworks */,
+				9933472A1B5B26380081172B /* libopencv_highgui.2.4.11.dylib in Frameworks */,
+				993347281B5B26260081172B /* libopencv_core.2.4.11.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,9 +68,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9933472D1B5B26B40081172B /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				9933472F1B5B27120081172B /* Cam.cpp */,
+				993347301B5B27120081172B /* Cam.h */,
+				993347321B5B27ED0081172B /* ObjCam.h */,
+				993347331B5B27ED0081172B /* ObjCam.mm */,
+			);
+			name = opencv;
+			sourceTree = "<group>";
+		};
 		99E473ED1B5B24DC009575C6 = {
 			isa = PBXGroup;
 			children = (
+				9933472B1B5B265E0081172B /* libopencv_video.2.4.11.dylib */,
+				993347291B5B26380081172B /* libopencv_highgui.2.4.11.dylib */,
+				993347261B5B25E70081172B /* libopencv_core.2.4.11.dylib */,
 				99E473F81B5B24DC009575C6 /* imposture */,
 				99E474091B5B24DC009575C6 /* impostureTests */,
 				99E473F71B5B24DC009575C6 /* Products */,
@@ -73,6 +103,8 @@
 		99E473F81B5B24DC009575C6 /* imposture */ = {
 			isa = PBXGroup;
 			children = (
+				9933472E1B5B27120081172B /* imposture-Bridging-Header.h */,
+				9933472D1B5B26B40081172B /* opencv */,
 				99E473FB1B5B24DC009575C6 /* AppDelegate.swift */,
 				99E473FD1B5B24DC009575C6 /* Images.xcassets */,
 				99E473FF1B5B24DC009575C6 /* MainMenu.xib */,
@@ -206,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E473FC1B5B24DC009575C6 /* AppDelegate.swift in Sources */,
+				993347311B5B27120081172B /* Cam.cpp in Sources */,
+				993347341B5B27ED0081172B /* ObjCam.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,10 +357,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
 				INFOPLIST_FILE = imposture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/opencv/2.4.11_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imposture/imposture-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -334,10 +380,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
 				INFOPLIST_FILE = imposture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/opencv/2.4.11_1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imposture/imposture-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -396,6 +453,7 @@
 				99E474121B5B24DC009575C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99E474131B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "impostureTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +462,7 @@
 				99E474151B5B24DC009575C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
