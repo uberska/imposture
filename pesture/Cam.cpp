@@ -54,7 +54,7 @@ static void detectAndDisplay(
     }
     
     // Show the frame
-    imshow("imposture", frame);
+    imshow("pesture", frame);
 }
 
 

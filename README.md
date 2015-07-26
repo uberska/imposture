@@ -1,2 +1,2 @@
-# imposture
-Posture correction tool.
+# pesture
+Posture correction tool. Pesters you about your posture.

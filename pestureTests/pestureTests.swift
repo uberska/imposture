@@ -1,13 +1,6 @@
-//
-//  impostureTests.swift
-//  impostureTests
-//
-//  Created by Scott Douglas on 7/18/15.
-//  Copyright (c) 2015 Scott Douglas. All rights reserved.
-//
-
 import Cocoa
 import XCTest
+
 
 class pestureTests: XCTestCase {
     
