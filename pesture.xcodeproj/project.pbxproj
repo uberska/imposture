@@ -382,6 +382,7 @@
 					/usr/local/lib,
 					/usr/local/Cellar/opencv/2.4.11_1/lib,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = pesture;
 				SWIFT_OBJC_BRIDGING_HEADER = "pesture/pesture-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -405,6 +406,7 @@
 					/usr/local/lib,
 					/usr/local/Cellar/opencv/2.4.11_1/lib,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = pesture;
 				SWIFT_OBJC_BRIDGING_HEADER = "pesture/pesture-Bridging-Header.h";
 			};
