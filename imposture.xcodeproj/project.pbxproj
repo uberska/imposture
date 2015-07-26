@@ -14,6 +14,7 @@
 		993347341B5B27ED0081172B /* ObjCam.mm in Sources */ = {isa = PBXBuildFile; fileRef = 993347331B5B27ED0081172B /* ObjCam.mm */; };
 		99425B031B5B2D12004FC58A /* libopencv_objdetect.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99425B021B5B2D12004FC58A /* libopencv_objdetect.2.4.11.dylib */; };
 		99425B051B5B2D2A004FC58A /* libopencv_imgproc.2.4.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99425B041B5B2D2A004FC58A /* libopencv_imgproc.2.4.11.dylib */; };
+		99E2E11A1B5CACCB00E170C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E2E1191B5CACCB00E170C1 /* MainView.swift */; };
 		99E473FC1B5B24DC009575C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E473FB1B5B24DC009575C6 /* AppDelegate.swift */; };
 		99E473FE1B5B24DC009575C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E473FD1B5B24DC009575C6 /* Images.xcassets */; };
 		99E474011B5B24DC009575C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99E473FF1B5B24DC009575C6 /* MainMenu.xib */; };
@@ -41,6 +42,7 @@
 		993347331B5B27ED0081172B /* ObjCam.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjCam.mm; sourceTree = "<group>"; };
 		99425B021B5B2D12004FC58A /* libopencv_objdetect.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_objdetect.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_objdetect.2.4.11.dylib; sourceTree = "<group>"; };
 		99425B041B5B2D2A004FC58A /* libopencv_imgproc.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_imgproc.2.4.11.dylib; sourceTree = "<group>"; };
+		99E2E1191B5CACCB00E170C1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		99E473F61B5B24DC009575C6 /* imposture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imposture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E473FA1B5B24DC009575C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E473FB1B5B24DC009575C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				9933472E1B5B27120081172B /* imposture-Bridging-Header.h */,
 				9933472D1B5B26B40081172B /* opencv */,
 				99E473FB1B5B24DC009575C6 /* AppDelegate.swift */,
+				99E2E1191B5CACCB00E170C1 /* MainView.swift */,
 				99E473FD1B5B24DC009575C6 /* Images.xcassets */,
 				99E473FF1B5B24DC009575C6 /* MainMenu.xib */,
 				99E473F91B5B24DC009575C6 /* Supporting Files */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E473FC1B5B24DC009575C6 /* AppDelegate.swift in Sources */,
+				99E2E11A1B5CACCB00E170C1 /* MainView.swift in Sources */,
 				993347311B5B27120081172B /* Cam.cpp in Sources */,
 				993347341B5B27ED0081172B /* ObjCam.mm in Sources */,
 			);
