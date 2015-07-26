@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:imposture.xcodeproj">
+      location = "self:/git/imposture/pesture.xcodeproj">
    </FileRef>
 </Workspace>

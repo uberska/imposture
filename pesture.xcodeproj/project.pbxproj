@@ -18,7 +18,7 @@
 		99E473FC1B5B24DC009575C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E473FB1B5B24DC009575C6 /* AppDelegate.swift */; };
 		99E473FE1B5B24DC009575C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E473FD1B5B24DC009575C6 /* Images.xcassets */; };
 		99E474011B5B24DC009575C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99E473FF1B5B24DC009575C6 /* MainMenu.xib */; };
-		99E4740D1B5B24DC009575C6 /* impostureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E4740C1B5B24DC009575C6 /* impostureTests.swift */; };
+		99E4740D1B5B24DC009575C6 /* pestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E4740C1B5B24DC009575C6 /* pestureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 		993347261B5B25E70081172B /* libopencv_core.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_core.2.4.11.dylib; sourceTree = "<group>"; };
 		993347291B5B26380081172B /* libopencv_highgui.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_highgui.2.4.11.dylib; sourceTree = "<group>"; };
 		9933472B1B5B265E0081172B /* libopencv_video.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_video.2.4.11.dylib; sourceTree = "<group>"; };
-		9933472E1B5B27120081172B /* imposture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imposture-Bridging-Header.h"; sourceTree = "<group>"; };
+		9933472E1B5B27120081172B /* pesture-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pesture-Bridging-Header.h"; sourceTree = "<group>"; };
 		9933472F1B5B27120081172B /* Cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cam.cpp; sourceTree = "<group>"; };
 		993347301B5B27120081172B /* Cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cam.h; sourceTree = "<group>"; };
 		993347321B5B27ED0081172B /* ObjCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCam.h; sourceTree = "<group>"; };
@@ -43,14 +43,14 @@
 		99425B021B5B2D12004FC58A /* libopencv_objdetect.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_objdetect.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_objdetect.2.4.11.dylib; sourceTree = "<group>"; };
 		99425B041B5B2D2A004FC58A /* libopencv_imgproc.2.4.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.11.dylib; path = ../../usr/local/Cellar/opencv/2.4.11_1/lib/libopencv_imgproc.2.4.11.dylib; sourceTree = "<group>"; };
 		99E2E1191B5CACCB00E170C1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		99E473F61B5B24DC009575C6 /* imposture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imposture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E473F61B5B24DC009575C6 /* pesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E473FA1B5B24DC009575C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E473FB1B5B24DC009575C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E473FD1B5B24DC009575C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99E474001B5B24DC009575C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		99E474061B5B24DC009575C6 /* impostureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = impostureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E474061B5B24DC009575C6 /* pestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E4740B1B5B24DC009575C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99E4740C1B5B24DC009575C6 /* impostureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = impostureTests.swift; sourceTree = "<group>"; };
+		99E4740C1B5B24DC009575C6 /* pestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pestureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 				9933472B1B5B265E0081172B /* libopencv_video.2.4.11.dylib */,
 				993347291B5B26380081172B /* libopencv_highgui.2.4.11.dylib */,
 				993347261B5B25E70081172B /* libopencv_core.2.4.11.dylib */,
-				99E473F81B5B24DC009575C6 /* imposture */,
-				99E474091B5B24DC009575C6 /* impostureTests */,
+				99E473F81B5B24DC009575C6 /* pesture */,
+				99E474091B5B24DC009575C6 /* pestureTests */,
 				99E473F71B5B24DC009575C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,16 +104,16 @@
 		99E473F71B5B24DC009575C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99E473F61B5B24DC009575C6 /* imposture.app */,
-				99E474061B5B24DC009575C6 /* impostureTests.xctest */,
+				99E473F61B5B24DC009575C6 /* pesture.app */,
+				99E474061B5B24DC009575C6 /* pestureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		99E473F81B5B24DC009575C6 /* imposture */ = {
+		99E473F81B5B24DC009575C6 /* pesture */ = {
 			isa = PBXGroup;
 			children = (
-				9933472E1B5B27120081172B /* imposture-Bridging-Header.h */,
+				9933472E1B5B27120081172B /* pesture-Bridging-Header.h */,
 				9933472D1B5B26B40081172B /* opencv */,
 				99E473FB1B5B24DC009575C6 /* AppDelegate.swift */,
 				99E2E1191B5CACCB00E170C1 /* MainView.swift */,
@@ -121,7 +121,7 @@
 				99E473FF1B5B24DC009575C6 /* MainMenu.xib */,
 				99E473F91B5B24DC009575C6 /* Supporting Files */,
 			);
-			path = imposture;
+			path = pesture;
 			sourceTree = "<group>";
 		};
 		99E473F91B5B24DC009575C6 /* Supporting Files */ = {
@@ -132,13 +132,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		99E474091B5B24DC009575C6 /* impostureTests */ = {
+		99E474091B5B24DC009575C6 /* pestureTests */ = {
 			isa = PBXGroup;
 			children = (
-				99E4740C1B5B24DC009575C6 /* impostureTests.swift */,
+				99E4740C1B5B24DC009575C6 /* pestureTests.swift */,
 				99E4740A1B5B24DC009575C6 /* Supporting Files */,
 			);
-			path = impostureTests;
+			path = pestureTests;
 			sourceTree = "<group>";
 		};
 		99E4740A1B5B24DC009575C6 /* Supporting Files */ = {
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99E473F51B5B24DC009575C6 /* imposture */ = {
+		99E473F51B5B24DC009575C6 /* pesture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99E474101B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "imposture" */;
+			buildConfigurationList = 99E474101B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "pesture" */;
 			buildPhases = (
 				99E473F21B5B24DC009575C6 /* Sources */,
 				99E473F31B5B24DC009575C6 /* Frameworks */,
@@ -164,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = imposture;
+			name = pesture;
 			productName = imposture;
-			productReference = 99E473F61B5B24DC009575C6 /* imposture.app */;
+			productReference = 99E473F61B5B24DC009575C6 /* pesture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		99E474051B5B24DC009575C6 /* impostureTests */ = {
+		99E474051B5B24DC009575C6 /* pestureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99E474131B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "impostureTests" */;
+			buildConfigurationList = 99E474131B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "pestureTests" */;
 			buildPhases = (
 				99E474021B5B24DC009575C6 /* Sources */,
 				99E474031B5B24DC009575C6 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				99E474081B5B24DC009575C6 /* PBXTargetDependency */,
 			);
-			name = impostureTests;
+			name = pestureTests;
 			productName = impostureTests;
-			productReference = 99E474061B5B24DC009575C6 /* impostureTests.xctest */;
+			productReference = 99E474061B5B24DC009575C6 /* pestureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 99E473F11B5B24DC009575C6 /* Build configuration list for PBXProject "imposture" */;
+			buildConfigurationList = 99E473F11B5B24DC009575C6 /* Build configuration list for PBXProject "pesture" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99E473F51B5B24DC009575C6 /* imposture */,
-				99E474051B5B24DC009575C6 /* impostureTests */,
+				99E473F51B5B24DC009575C6 /* pesture */,
+				99E474051B5B24DC009575C6 /* pestureTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E4740D1B5B24DC009575C6 /* impostureTests.swift in Sources */,
+				99E4740D1B5B24DC009575C6 /* pestureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		99E474081B5B24DC009575C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 99E473F51B5B24DC009575C6 /* imposture */;
+			target = 99E473F51B5B24DC009575C6 /* pesture */;
 			targetProxy = 99E474071B5B24DC009575C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -382,7 +382,7 @@
 					/usr/local/lib,
 					/usr/local/Cellar/opencv/2.4.11_1/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pesture;
 				SWIFT_OBJC_BRIDGING_HEADER = "imposture/imposture-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -405,7 +405,7 @@
 					/usr/local/lib,
 					/usr/local/Cellar/opencv/2.4.11_1/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pesture;
 				SWIFT_OBJC_BRIDGING_HEADER = "imposture/imposture-Bridging-Header.h";
 			};
 			name = Release;
@@ -425,7 +425,7 @@
 				);
 				INFOPLIST_FILE = impostureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pestureTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imposture.app/Contents/MacOS/imposture";
 			};
 			name = Debug;
@@ -441,7 +441,7 @@
 				);
 				INFOPLIST_FILE = impostureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pestureTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imposture.app/Contents/MacOS/imposture";
 			};
 			name = Release;
@@ -449,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99E473F11B5B24DC009575C6 /* Build configuration list for PBXProject "imposture" */ = {
+		99E473F11B5B24DC009575C6 /* Build configuration list for PBXProject "pesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99E4740E1B5B24DC009575C6 /* Debug */,
@@ -458,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99E474101B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "imposture" */ = {
+		99E474101B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "pesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99E474111B5B24DC009575C6 /* Debug */,
@@ -467,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99E474131B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "impostureTests" */ = {
+		99E474131B5B24DC009575C6 /* Build configuration list for PBXNativeTarget "pestureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99E474141B5B24DC009575C6 /* Debug */,

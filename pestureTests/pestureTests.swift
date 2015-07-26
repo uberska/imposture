@@ -9,7 +9,7 @@
 import Cocoa
 import XCTest
 
-class impostureTests: XCTestCase {
+class pestureTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
